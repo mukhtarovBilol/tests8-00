@@ -59,8 +59,8 @@ function nextQuestion() {
 function showResult() {
   document.getElementById("quiz-container").classList.add("hidden");
   document.getElementById("result-screen").classList.remove("hidden");
-  const resultText = document.getElementById("result-text");
-  resultText.innerText = `${score} из ${questions.length}`;
+  // const resultText = document.getElementById("result-text");
+  // resultText.innerText = `${score} из ${questions.length}`;
   sendToTelegram(userName, score, questions.length);
 }
 
