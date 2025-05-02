@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Тест по Python</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Тест по Python</h1>
+    <div id="start-screen">
+      <input type="text" id="username" placeholder="Введите имя">
+      <button onclick="startQuiz()">Начать тест</button>
+    </div>
+    <div id="quiz-container" class="hidden">
+      <div id="question-box"></div>
+      <div id="options-box"></div>
+      <button id="next-btn" onclick="nextQuestion()">Следующий</button>
+    </div>
+    <div id="result-screen" class="hidden">
+      <h2>Ваш результат: Отправлено учителю 😀</h2>
+    </div>
+  </div>
+  <audio id="alert-sound" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg" preload="auto"></audio>
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
