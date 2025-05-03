@@ -148,5 +148,60 @@ const questions = [
     question: "Какой метод используется для удаления элемента из списка по значению?",
     options: ["remove()", "delete()", "cut()", "drop()"],
     correctIndex: 0
+  },
+  {
+    question: "Какой максимальный размер VARCHAR в MySQL?",
+    options: ["255", "1024", "4096", "65535"],
+    correctIndex: 2
+  },
+  {
+    question: "Как создать новую таблицу?",
+    options: ["NEW TABLE", "MAKE TABLE", "CREATE TABLE", "INIT TABLE"],
+    correctIndex: 2
+  },
+  {
+    question: "Что делает LIMIT 10 в конце SQL-запроса?",
+    options: ["Ограничивает вывод 10 строками", "Выводит последние 10 строк", "Делит таблицу", "Пропускает первые 10 строк"],
+    correctIndex: 0
+  },
+  {
+    question: "Какой максимальный размер VARCHAR в MySQL?",
+    options: ["255", "1024", "4096", "65535"],
+    correctIndex: 2
+  },
+  {
+    question: "Какая команда используется для добавления новой строки?",
+    options: ["INSERT INTO", "ADD NEW", "UPDATE", "NEW ROW"],
+    correctIndex: 0
+  },
+  {
+    question: "Как выбрать все столбцы из таблицы students?",
+    options: ["SELECT all FROM students;", "SELECT * FROM students;", "GET * FROM students;", "SHOW ALL students;"],
+    correctIndex: 1
+  },
+  {
+    question: "Как удалить все строки из таблицы users?",
+    options: ["DELETE users;", "REMOVE FROM users;", "DELETE FROM users;", "TRUNCATE TABLE users;"],
+    correctIndex: 2
+  },
+  {
+    question: "Что делает команда SELECT в SQL?",
+    options: ["Удаляет таблицу", "Обновляет данные", "Выбирает данные", "Создаёт таблицу"],
+    correctIndex: 2
+  },
+  {
+    question: "Какой тип данных лучше использовать для хранения текста фиксированной длины?",
+    options: ["INT", "CHAR(n)", "FLOAT", "DATE"],
+    correctIndex: 1
+  },
+  {
+    question: "Что делает WHERE в SQL-запросе?",
+    options: ["Задает сортировку", "Ограничивает количество строк", "Фильтрует строки по условию", "Изменяет таблицу"],
+    correctIndex: 2
+  },
+  {
+    question: "Чем VARCHAR отличается от CHAR?",
+    options: ["VARCHAR хранит переменную длину", "VARCHAR только для чисел", "CHAR работает только с числами", "CHAR больше по объему"],
+    correctIndex: 0
   }
 ];
