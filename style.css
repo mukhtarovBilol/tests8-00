@@ -4,6 +4,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 50px;
+  user-select: none;
 }
 .container {
   background: white;
